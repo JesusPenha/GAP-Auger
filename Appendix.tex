@@ -1,0 +1,18 @@
+\section{Potential and cloud-base estimation}
+\label{app::cloudbase}
+
+El campo eléctrico lento es producido por la acumulación de carga en las nubes; el conjunto atmósfera-tierra se puede considerar como un capacitor de placas paralelas. La expresión de la Eq. \ref{potencial} describe el comportamiento del potencial que se genera entre las nubes y la tierra, con $E$ como el campo eléctrico y $d$ la altura de la base de la nube.
+\begin{equation}
+    V = Ed
+    \label{potencial}
+\end{equation}
+G. Lawrence et. al. en su trabajo \textbf{"The Relationship between Relative Humidity and the Dewpoint Temperature in Moist Air"} \cite{lawrence2005relationship} propone una expresión para la aproximación la altura de la base de la nube cúmulo ($Z_{lcl}$) y su relación con la temperatura de rocío ($t_{d}$) y la temperatura del aire ($t$) a nivel de suelo tal como se observa en la Eq. \ref{alt}.
+\begin{equation}
+    d\approx 125\left (t - t_{d}\right )
+    \label{alt}
+\end{equation}
+La temperatura a la que se condensa el vapor de agua en una muestra de gas se le llama temperatura de punto de rocío y su valor depende de la humedad relativa del gas ($RH$) \cite{lawrence2005relationship}, tal como se observa en la Eq. \ref{td}.
+\begin{equation}
+    td \approx t - \left ( \frac{100 - RH}{5}\right)
+    \label{td}
+\end{equation}
